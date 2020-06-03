@@ -1,3 +1,106 @@
-/* body{
-    
-} */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    max-width:100%;
+    border:1px solid grey;
+}
+html{
+    font-size:62.5%;
+}
+h1{
+    font-size: 5rem;
+}
+h2{
+    font-size: 3rem;
+}
+h3{
+    font-size: 2rem;
+}
+p{
+    font-size: 1.8rem;
+}
+header{
+    width: 100%;
+    text-align: center;
+}
+nav{
+    width: 100%;
+}
+a{
+    font-size: 2rem;
+    margin:2% auto;
+    width:100%;
+    text-align:center;
+    color:white;
+    padding:2% 0;
+    border-radius:10px;
+    text-decoration: none;
+}
+.visit-button{
+    background-color: #FF764E;
+    width:30%;
+}
+.learn-button{
+    background-color: #5ED3EB;
+    width:30%;
+}
+.involved-button{
+    background-color: #FFCD69;
+    width:30%;
+}
+.intro{
+    display: inline-block;
+    width:100%;
+}
+.intro img{
+    display: inline-block;
+    border-radius: 75%;
+    height: 40vh;
+}
+.intro-img{
+    display: inline-block;
+    width: 20%;
+}
+.intro-abt{
+    display: inline-block;
+    width: 70%;
+}
+.about{
+    color: white;
+    background-color: #DDB9A3;
+    margin: 3% 2%;
+}
+.news{
+    width: 40%;
+    margin: 2% auto;
+    text-align: center;
+}
+footer img{
+    background-image: url("https://raw.githubusercontent.com/deborah-w32/web-module-project-intro-css/master/assets/footer_img.jpg");
+    height:40vh;
+    background-size:cover;
+    background-attachment:fixed;
+}
