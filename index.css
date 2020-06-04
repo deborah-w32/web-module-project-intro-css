@@ -25,49 +25,68 @@ time, mark, audio, video {
     padding:0;
     margin:0;
     max-width:100%;
-    border:1px solid grey;
 }
 html{
     font-size:62.5%;
+    
 }
 h1{
     font-size: 5rem;
+    font-family: 'Chelsea Market', cursive;
 }
 h2{
     font-size: 3rem;
+    font-family: 'Roboto Mono', monospace;
 }
 h3{
     font-size: 2rem;
+    font-family: 'Roboto Mono', monospace;
 }
 p{
     font-size: 1.8rem;
+    font-family: 'Roboto Mono', monospace;
 }
 header{
     width: 100%;
     text-align: center;
+    vertical-align: top;
+    line-height: 2;
 }
 nav{
     width: 100%;
+    height: 10vh;
+    padding: 5%;
+    margin:2% 0;
 }
 a{
     font-size: 2rem;
-    margin:2% auto;
+    font-family: 'Roboto Mono', monospace;
+    margin:1% auto;
     width:100%;
     text-align:center;
     color:white;
-    padding:2% 0;
+    padding:3% 1%;
     border-radius:10px;
     text-decoration: none;
+    vertical-align: top;
+}
+a:hover{
+    background-color: #BACBDF;
+    color: #FCA695;
 }
 .visit-button{
+    vertical-align: top;
     background-color: #FF764E;
     width:30%;
 }
 .learn-button{
+    vertical-align: top;
     background-color: #5ED3EB;
     width:30%;
+    margin: 0 20% 0 20%;
 }
 .involved-button{
+    vertical-align: top;
     background-color: #FFCD69;
     width:30%;
 }
@@ -92,15 +111,35 @@ a{
     color: white;
     background-color: #DDB9A3;
     margin: 3% 2%;
+    text-align: center;
+}
+.about div{
+    padding: 2%;
 }
 .news{
     width: 40%;
     margin: 2% auto;
     text-align: center;
+    padding: 2%;
+}
+.news div{
+    padding: 20%;
+}
+strong{
+    font-weight: bold;
+}
+.fire img, .reserve img{
+    height: 40vh;
+
+}
+footer{
+    width: 100%;
+    background-color: #F9E7DC;
 }
 footer img{
     background-image: url("https://raw.githubusercontent.com/deborah-w32/web-module-project-intro-css/master/assets/footer_img.jpg");
-    height:40vh;
     background-size:cover;
     background-attachment:fixed;
+    background-position: top;
+    background-repeat: no-repeat;
 }
